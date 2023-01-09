@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Academlo Store : GRUPO 1C</title>
+</head>
+<body> 
+
+    <div class="loading">
+        <div class="load" >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="load__gif">
+                <title>Academlo Logo</title>
+                <g>
+                    <g>
+                        <path
+                            d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                        </path>
+                        <path
+                            d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <header class="header observer" id="principal">
+        <nav class="navbar">
+            <div class="nav__container">
+                <div class="navbar__menu">
+                    <a href="#" class="nav__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" fill="#e94959" class="nav__logo-icon">
+                        <title>Academlo Logo</title>
+                        <g>
+                            <g>
+                                <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                                </path>
+                            </g>
+                        </g>
+                        </svg>STORE
+                    </a>       
+                    <ul class="navbar__menu--index">
+                        <li><a href="#principal" class="nav__home">Home</a></li>
+                        <li><a href="#products" class="nav__products">Products</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="navbar__icons">
+    
+                    <a href="#"><i class='bx bx-moon'></i></a>
+                    <a href="#"><i class='bx bx-shopping-bag'></i> <div class="cart__count">0</div></a>
+                    <a href="#"><i class='bx bx-grid-alt'></i></a>
+                </div>
+            </div>
+        </nav>
+        <section class="header__content">   
+            <div class="header__image">
+                <img src="./img/home.png" alt="">
+            </div>
+            <div class="header__description">
+                <h1 class="header__title">New Sweatshirt<br>
+                    COLLECTIONS 2022
+                </h1>
+                <p class="header__text text__color">Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+                <h3 class="header__price">$14.00</h3>
+                <div class="header__buttons">
+                    <a href="#">Discover</a>
+                    <a href="#">ADD TO CART</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main observer" id="products">
+        
+        <section class="main__filter">
+            <div class="filter filter__showAll">
+                <h3>Show All</h3>
+                <p class="text__color">show all products</p>
+            </div>
+            <div class="filter filter__hoodie">
+                <h3>Hoddies</h3>
+                <p class="text__color">3 products</p>
+            </div>
+            <div class="filter filter__shirt">
+                <h3>Shirts</h3>
+                <p class="text__color">4 products</p>
+            </div>
+            <div class="filter filter__sweatshirts">
+                <h3>Sweetshirts</h3>
+                <p class="text__color">4 products</p>
+            </div>
+        </section>
+        <section class="main__products">
+            <div class="main__product">
+                <img src="./img/featured1.png" alt>
+            <div class="product__description">
+            <h3>$14</h3>
+            <span>stock: 10</span>
+            <p class="text__color">Hoodies</p>
+            <div class="icon__product">
+                <i data-id="1" class="bx bx-plus">
+                
+            </i>
+            </div>
+        </div>
+    </div>
+        <div class="main__product">
+            <img src="./img/featured2.png" alt>
+            <div class="product__description">
+                <h3>$24</h3>
+                <span>stock: 15</span>
+                <p class="text__color">Shirts</p>
+                <div class="icon__product">
+                <i data-id="2" class="bx bx-plus"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__product">
+            <img src="./img/featured3.png" alt>
+            <div class="product__description">
+            <h3>$24</h3>
+            <span>stock: 20</span>
+            <p class="text__color">Sweatshirt</p>
+            <div class="icon__product">
+            <i data-id="3" class="bx bx-plus">
+            ::before
+            </i>
+            </div>
+        </div>
+    </div>
+        </section>
+        <section class="main__shoppingCart">
+            <a href="#"><i class='bx bx-x'>
+                
+            </i></a>
+            <h1>My Cart</h1>
+
+            <div class="added__elements">
+                <div class="added__elements--empty">
+                    <img src="./img/empty-cart.png" alt="empty cart">
+                    <h2>your cart is empty</h2>
+                    <p> you can add items to your cart by clicking on the + button on the product page.</p>
+                </div>   
+            </div>
+
+            <div class="total__sum">
+                <p class="text__color total__sum--items">items 0</p>
+                <p class="total__sum--price">$0.00</p>    
+            </div>
+
+            <div class="comprar">
+                <a href="#" class="text__color">Comprar</a>
+            </div>
+
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__item footer__ourInformation">
+                <h2>Our information</h2>
+                <p class="text__color">Colombia/Ecuador/Venezuela</p>
+            </section>
+            <section class="footer__item footer__aboutUs">
+                <h2>About us</h2>
+                <p class="text__color">Support Center</p>
+                <p class="text__color">Costumer Support</p>
+                <p class="text__color">About Us</p>
+                <p class="text__color">Copy Rigth</p>
+            </section>
+            <section class="footer__item footer__product">
+                <h2>Product</h2>
+                <p class="text__color">Hoodies</p>
+                <p class="text__color">Shirts</p>
+                <p class="text__color">Sweetshirts</p>
+            </section>
+            <section class="footer__item footer__social">
+                <h2>Social</h2>
+                <div>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </section>
+        </div>
+        <section class="copyRigth">
+            <p class="text__color">© Academlo Grupo 1C. All rigths reserved</p>
+        </section>
+    </footer>
+    <script src="./js/main.js"></script>
+    <div></div>
+</body>
+</html>
